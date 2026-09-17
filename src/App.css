@@ -1,4 +1,4 @@
-.counter {
+/* .counter {
   font-size: 16px;
   padding: 5px 10px;
   border-radius: 5px;
@@ -181,4 +181,30 @@
     right: 0;
     border-right-color: var(--border);
   }
+} */body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: white;
+  color: #111;
+}
+
+.app {
+  padding: 25px 22px;
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+
+h2 {
+  font-size: 17px;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+
+.cards-container {
+  display: flex;
+  gap: 18px;
+  flex-wrap: wrap;
 }

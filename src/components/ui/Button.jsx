@@ -1,9 +1,20 @@
-function Button(){
-    return(
-        <div>
-            <button onClick={()=>{console.log("Button Clicked")}}>click</button>
-        </div>
-    )
+import "./Button.css";
+
+function Button({
+  text,
+  onClick,
+  variant = "primary",
+  disabled = false
+}) {
+  return (
+    <button
+      className={`btn btn-${variant}`}
+      onClick={onClick}
+      disabled={disabled}
+    >
+      {text}
+    </button>
+  );
 }
 
-export default Button
+export default Button;
