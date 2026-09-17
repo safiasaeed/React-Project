@@ -86,13 +86,13 @@ function App() {
             <Card
               title="React"
               description="A JavaScript library for building user interfaces."
-              image="https://upload.wikimedia.org/wikipedia/commons/a/a7/React-icon.svg"
+             
             />
 
             <Card
               title="TypeScript"
               description="A typed superset of JavaScript."
-              image="https://upload.wikimedia.org/wikipedia/commons/4/4c/Typescript_logo_2020.svg"
+             
             >
               <Button
                 text="Learn More"
